@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B3448461E7C4BD40055F047 /* Flashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3448451E7C4BD40055F047 /* Flashable.swift */; };
+		7B3448481E7C4C360055F047 /* Jitterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3448471E7C4C360055F047 /* Jitterable.swift */; };
+		7BCEED591E7B81FB00D60E78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEED581E7B81FB00D60E78 /* AppDelegate.swift */; };
+		7BCEED5B1E7B81FB00D60E78 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEED5A1E7B81FB00D60E78 /* LoginVC.swift */; };
+		7BCEED5E1E7B81FB00D60E78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BCEED5C1E7B81FB00D60E78 /* Main.storyboard */; };
+		7BCEED601E7B81FB00D60E78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BCEED5F1E7B81FB00D60E78 /* Assets.xcassets */; };
+		7BCEED631E7B81FB00D60E78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BCEED611E7B81FB00D60E78 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B3448451E7C4BD40055F047 /* Flashable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flashable.swift; sourceTree = "<group>"; };
+		7B3448471E7C4C360055F047 /* Jitterable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jitterable.swift; sourceTree = "<group>"; };
+		7BCEED551E7B81FB00D60E78 /* Jupiter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jupiter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BCEED581E7B81FB00D60E78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BCEED5A1E7B81FB00D60E78 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		7BCEED5D1E7B81FB00D60E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BCEED5F1E7B81FB00D60E78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BCEED621E7B81FB00D60E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BCEED641E7B81FB00D60E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BCEED521E7B81FB00D60E78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B3448441E7C4B970055F047 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				7B3448451E7C4BD40055F047 /* Flashable.swift */,
+				7B3448471E7C4C360055F047 /* Jitterable.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		7BCEED4C1E7B81FB00D60E78 = {
+			isa = PBXGroup;
+			children = (
+				7BCEED571E7B81FB00D60E78 /* Jupiter */,
+				7BCEED561E7B81FB00D60E78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BCEED561E7B81FB00D60E78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BCEED551E7B81FB00D60E78 /* Jupiter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BCEED571E7B81FB00D60E78 /* Jupiter */ = {
+			isa = PBXGroup;
+			children = (
+				7B3448441E7C4B970055F047 /* Protocols */,
+				7BCEED6B1E7B86F900D60E78 /* View */,
+				7BCEED6A1E7B86EE00D60E78 /* Controller */,
+				7BCEED581E7B81FB00D60E78 /* AppDelegate.swift */,
+				7BCEED5A1E7B81FB00D60E78 /* LoginVC.swift */,
+				7BCEED5C1E7B81FB00D60E78 /* Main.storyboard */,
+				7BCEED5F1E7B81FB00D60E78 /* Assets.xcassets */,
+				7BCEED611E7B81FB00D60E78 /* LaunchScreen.storyboard */,
+				7BCEED641E7B81FB00D60E78 /* Info.plist */,
+			);
+			path = Jupiter;
+			sourceTree = "<group>";
+		};
+		7BCEED6A1E7B86EE00D60E78 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7BCEED6B1E7B86F900D60E78 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BCEED541E7B81FB00D60E78 /* Jupiter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BCEED671E7B81FB00D60E78 /* Build configuration list for PBXNativeTarget "Jupiter" */;
+			buildPhases = (
+				7BCEED511E7B81FB00D60E78 /* Sources */,
+				7BCEED521E7B81FB00D60E78 /* Frameworks */,
+				7BCEED531E7B81FB00D60E78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jupiter;
+			productName = Jupiter;
+			productReference = 7BCEED551E7B81FB00D60E78 /* Jupiter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BCEED4D1E7B81FB00D60E78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "James Rochabrun";
+				TargetAttributes = {
+					7BCEED541E7B81FB00D60E78 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ULU46F325W;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7BCEED501E7B81FB00D60E78 /* Build configuration list for PBXProject "Jupiter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BCEED4C1E7B81FB00D60E78;
+			productRefGroup = 7BCEED561E7B81FB00D60E78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BCEED541E7B81FB00D60E78 /* Jupiter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BCEED531E7B81FB00D60E78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BCEED631E7B81FB00D60E78 /* LaunchScreen.storyboard in Resources */,
+				7BCEED601E7B81FB00D60E78 /* Assets.xcassets in Resources */,
+				7BCEED5E1E7B81FB00D60E78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BCEED511E7B81FB00D60E78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BCEED5B1E7B81FB00D60E78 /* LoginVC.swift in Sources */,
+				7B3448461E7C4BD40055F047 /* Flashable.swift in Sources */,
+				7B3448481E7C4C360055F047 /* Jitterable.swift in Sources */,
+				7BCEED591E7B81FB00D60E78 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7BCEED5C1E7B81FB00D60E78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BCEED5D1E7B81FB00D60E78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BCEED611E7B81FB00D60E78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BCEED621E7B81FB00D60E78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BCEED651E7B81FB00D60E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BCEED661E7B81FB00D60E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BCEED681E7B81FB00D60E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ULU46F325W;
+				INFOPLIST_FILE = Jupiter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedelo.Jupiter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7BCEED691E7B81FB00D60E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ULU46F325W;
+				INFOPLIST_FILE = Jupiter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.speedelo.Jupiter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BCEED501E7B81FB00D60E78 /* Build configuration list for PBXProject "Jupiter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BCEED651E7B81FB00D60E78 /* Debug */,
+				7BCEED661E7B81FB00D60E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BCEED671E7B81FB00D60E78 /* Build configuration list for PBXNativeTarget "Jupiter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BCEED681E7B81FB00D60E78 /* Debug */,
+				7BCEED691E7B81FB00D60E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BCEED4D1E7B81FB00D60E78 /* Project object */;
+}

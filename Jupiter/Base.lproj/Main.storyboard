@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--LoginVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LoginVC" customModule="Jupiter" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gradientScreen" translatesAutoresizingMaskIntoConstraints="NO" id="NPu-XA-82i">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Cvd-eY-McL">
+                                <rect key="frame" x="10" y="328" width="300" height="220"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Pv-4f-5f9" customClass="DataEntryTextfield" customModule="Jupiter" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="300" id="ElZ-DR-9dB"/>
+                                            <constraint firstAttribute="height" constant="40" id="q30-ec-HpI"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1M5-M1-GkN" customClass="DataEntryTextfield" customModule="Jupiter" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="60" width="300" height="40"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MUST ENTER EMAIL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c8b-hZ-RMC" customClass="FlashingLabel" customModule="Jupiter" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="120" width="300" height="40"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.92549020049999997" green="0.23529411850000001" blue="0.1019607857" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L34-QX-HPq" customClass="LoginButton" customModule="Jupiter" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="180" width="300" height="40"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                        <state key="normal" title="Login">
+                                            <color key="titleColor" red="0.4549019608" green="1" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="LoginWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XgH-Fc-N7U"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="compass" translatesAutoresizingMaskIntoConstraints="NO" id="dxT-Ha-6wx">
+                                <rect key="frame" x="40" y="59" width="240" height="240"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="NPu-XA-82i" secondAttribute="trailing" id="2eG-rc-LHE"/>
+                            <constraint firstItem="dxT-Ha-6wx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="24" id="6Cq-Bz-d8d"/>
+                            <constraint firstItem="NPu-XA-82i" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Juy-v9-5lp"/>
+                            <constraint firstItem="Cvd-eY-McL" firstAttribute="top" secondItem="dxT-Ha-6wx" secondAttribute="bottom" constant="29" id="Luc-DD-IIz"/>
+                            <constraint firstItem="Cvd-eY-McL" firstAttribute="centerX" secondItem="NPu-XA-82i" secondAttribute="centerX" id="ZgW-kp-Y8U"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Cvd-eY-McL" secondAttribute="bottom" constant="20" id="nzv-Ye-dKE"/>
+                            <constraint firstItem="dxT-Ha-6wx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="39" id="pmI-rB-Hvt"/>
+                            <constraint firstItem="NPu-XA-82i" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="pxD-NF-HYR"/>
+                            <constraint firstItem="dxT-Ha-6wx" firstAttribute="centerX" secondItem="Cvd-eY-McL" secondAttribute="centerX" id="sVe-DO-vYU"/>
+                            <constraint firstItem="NPu-XA-82i" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="xSu-rl-5vF"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="1Pv-4f-5f9" id="jEM-c2-FbY"/>
+                        <outlet property="errorLabel" destination="c8b-hZ-RMC" id="Crd-ti-Slx"/>
+                        <outlet property="imageView" destination="dxT-Ha-6wx" id="ZLn-HK-i2b"/>
+                        <outlet property="loginbutton" destination="L34-QX-HPq" id="ggp-2b-I6d"/>
+                        <outlet property="passwordTextfield" destination="1M5-M1-GkN" id="SLV-vA-ucb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="compass" width="166" height="166"/>
+        <image name="gradientScreen" width="208" height="369"/>
+    </resources>
+</document>
